@@ -1,6 +1,28 @@
 <features>
   <feature name="jowambi.springapp" version="1.0-SNAPSHOT">
     <feature>war</feature>
+
+    <!-- Spring -->
+    <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.aopalliance/1.0_4</bundle>
+    <bundle>mvn:org.springframework/spring-core/3.0.4.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-asm/3.0.4.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-expression/3.0.4.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-beans/3.0.4.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-aop/3.0.4.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-context/3.0.4.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-context-support/3.0.4.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-web/3.0.4.RELEASE</bundle>
+    <bundle>mvn:org.springframework/spring-webmvc/3.0.4.RELEASE</bundle>
+    
+    <!-- Spring DM -->
+    <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.cglib/2.1_3_6</bundle>
+    <bundle>mvn:org.springframework.osgi/spring-osgi-io/1.2.1</bundle>
+    <bundle>mvn:org.springframework.osgi/spring-osgi-core/1.2.1</bundle>
+    <bundle>mvn:org.springframework.osgi/spring-osgi-extender/1.2.1</bundle>
+    <bundle>mvn:org.springframework.osgi/spring-osgi-annotation/1.2.1</bundle>
+    <bundle>mvn:org.springframework.osgi/spring-osgi-web/1.2.1</bundle>
+    <bundle>mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.spring/2.1.0</bundle>
+
     <bundle>mvn:jowambi/springapp/1.0-SNAPSHOT/war</bundle>
   </feature>
 </features>
