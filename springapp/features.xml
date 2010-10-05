@@ -1,0 +1,6 @@
+<features>
+  <feature name="jowambi.springapp" version="1.0-SNAPSHOT">
+    <feature>war</feature>
+    <bundle>mvn:jowambi/springapp/1.0-SNAPSHOT/war</bundle>
+  </feature>
+</features>
