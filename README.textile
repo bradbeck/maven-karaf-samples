@@ -1,0 +1,3 @@
+h2. maven-karaf-samples
+
+Examples of creating bundles for Karaf using Maven.
