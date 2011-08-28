@@ -18,18 +18,18 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-    <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.core</artifactId>
-      <version>4.2.0</version>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.osgi</groupId>
-      <artifactId>org.osgi.compendium</artifactId>
-      <version>4.2.0</version>
-      <scope>provided</scope>
-    </dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.core</artifactId>
+			<version>4.2.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi.compendium</artifactId>
+			<version>4.2.0</version>
+			<scope>provided</scope>
+		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>servlet-api</artifactId>
@@ -69,28 +69,28 @@
 							<instructions>
 								<Export-Package />
 								<Import-Package>
-								  javax.servlet,
-								  javax.servlet.http,
-								  javax.servlet.*,
-								  javax.servlet.jsp.*,
-								  javax.servlet.jsp.jstl.*,
-                  org.springframework.osgi.web.context.support,
-                  org.springframework.context.support,
-                  org.springframework.web.context,
-                  org.springframework.web.context.support,
-                  org.springframework.web.servlet,
-                  org.springframework.web.servlet.mvc,
-                  org.springframework.web.servlet.mvc.support,
-                  org.springframework.web.servlet.view,
-                  org.springframework.osgi.service.importer,
-                  org.springframework.aop,
-                  org.springframework.core,
-                  org.osgi.service.log;resolution:=optional
+									javax.servlet,
+									javax.servlet.http,
+									javax.servlet.*,
+									javax.servlet.jsp.*,
+									javax.servlet.jsp.jstl.*,
+									org.springframework.osgi.web.context.support,
+									org.springframework.context.support,
+									org.springframework.web.context,
+									org.springframework.web.context.support,
+									org.springframework.web.servlet,
+									org.springframework.web.servlet.mvc,
+									org.springframework.web.servlet.mvc.support,
+									org.springframework.web.servlet.view,
+									org.springframework.osgi.service.importer,
+									org.springframework.aop,
+									org.springframework.core,
+									org.osgi.service.log;resolution:=optional
 								</Import-Package>
 								<DynamicImport-Package>
-								  javax.*,
-                  org.xml.sax,
-                  org.xml.sax.*,
+									javax.*,
+									org.xml.sax,
+									org.xml.sax.*,
 									org.w3c.*
 								</DynamicImport-Package>
 								<Bundle-ClassPath>.,WEB-INF/classes</Bundle-ClassPath>
