@@ -1,3 +1,7 @@
 h2. maven-karaf-samples
 
 Examples of creating bundles for Karaf using Maven.
+* service - OSGi service
+* consumer - OSGi service client
+* app - generate Karaf features.xml
+* springapp - OSGi Sring Webapp
