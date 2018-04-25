@@ -1,5 +1,5 @@
 <features>
-  <feature name="jowambi.springapp" version="1.0-SNAPSHOT">
+  <feature name="jowambi.springapp" version="1.0">
     <feature>war</feature>
 
     <!-- Spring -->
@@ -13,7 +13,7 @@
     <bundle>mvn:org.springframework/spring-context-support/3.0.4.RELEASE</bundle>
     <bundle>mvn:org.springframework/spring-web/3.0.4.RELEASE</bundle>
     <bundle>mvn:org.springframework/spring-webmvc/3.0.4.RELEASE</bundle>
-    
+
     <!-- Spring DM -->
     <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.cglib/2.1_3_6</bundle>
     <bundle>mvn:org.springframework.osgi/spring-osgi-io/1.2.1</bundle>
@@ -23,6 +23,6 @@
     <bundle>mvn:org.springframework.osgi/spring-osgi-web/1.2.1</bundle>
     <bundle>mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.spring/2.1.0</bundle>
 
-    <bundle>mvn:jowambi/springapp/1.0-SNAPSHOT/war</bundle>
+    <bundle>mvn:jowambi/springapp/1.0/war</bundle>
   </feature>
 </features>
